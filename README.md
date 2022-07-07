@@ -1,17 +1,17 @@
 INSERT INTO generes (ID,NAME)
-VALUES (1, 'Электронная музыка' );
+VALUES (1, 'Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ РјСѓР·С‹РєР°' );
 
 INSERT INTO generes (ID,NAME)
-VALUES (2, 'Джаз' );
+VALUES (2, 'Р”Р¶Р°Р·' );
 
 INSERT INTO generes (ID,NAME)
-VALUES (3, 'Поп-музыка' );
+VALUES (3, 'РџРѕРї-РјСѓР·С‹РєР°' );
 
 INSERT INTO generes (ID,NAME)
-VALUES (4, 'Рок' );
+VALUES (4, 'Р РѕРє' );
 
 INSERT INTO generes (ID,NAME)
-VALUES (5, 'Диско' );
+VALUES (5, 'Р”РёСЃРєРѕ' );
 
 
 INSERT INTO artists (ID,NAME)
@@ -33,7 +33,7 @@ INSERT INTO artists (ID,NAME)
 VALUES (6, 'NILETTO' );
 
 INSERT INTO artists (ID,NAME)
-VALUES (7, 'Кино' );
+VALUES (7, 'РљРёРЅРѕ' );
 
 INSERT INTO artists (ID,NAME)
 VALUES (8, 'Dua Lipa' );
@@ -55,10 +55,10 @@ INSERT INTO albums (ID,TITLE,DATE)
 VALUES (5, 'Bloom', 2018 );
 
 INSERT INTO albums (ID,TITLE,DATE)
-VALUES (6, 'Любимка', 2019 );
+VALUES (6, 'Р›СЋР±РёРјРєР°', 2019 );
 
 INSERT INTO albums (ID,TITLE,DATE)
-VALUES (7, 'Звезда по имени Солнце', 1989 );
+VALUES (7, 'Р—РІРµР·РґР° РїРѕ РёРјРµРЅРё РЎРѕР»РЅС†Рµ', 1989 );
 
 INSERT INTO albums (ID,TITLE,DATE)
 VALUES (8, 'Future Nostalgia', 2020 );
@@ -110,19 +110,19 @@ INSERT INTO tracks (ID,album_id,TITLE,DURATION)
 VALUES (15, 5, 'The Good Side', 00-04-28 );
 
 INSERT INTO tracks (ID,album_id,TITLE,DURATION)
-VALUES (16, 6, 'Любимка', 00-03-40 );
+VALUES (16, 6, 'Р›СЋР±РёРјРєР°', 00-03-40 );
 
 INSERT INTO tracks (ID,album_id,TITLE,DURATION)
-VALUES (17, 6, 'Любимка, другая', 00-03-17 );
+VALUES (17, 6, 'Р›СЋР±РёРјРєР°, РґСЂСѓРіР°СЏ', 00-03-17 );
 
 INSERT INTO tracks (ID,album_id,TITLE,DURATION)
-VALUES (18, 7, 'Песня без слов', 00-05-03 );
+VALUES (18, 7, 'РџРµСЃРЅСЏ Р±РµР· СЃР»РѕРІ', 00-05-03 );
 
 INSERT INTO tracks (ID,album_id,TITLE,DURATION)
-VALUES (19, 7, 'Звезда по имени Солнце', 00-03-46 );
+VALUES (19, 7, 'Р—РІРµР·РґР° РїРѕ РёРјРµРЅРё РЎРѕР»РЅС†Рµ', 00-03-46 );
 
 INSERT INTO tracks (ID,album_id,TITLE,DURATION)
-VALUES (20, 7, 'Невеселая песня', 00-04-15 );
+VALUES (20, 7, 'РќРµРІРµСЃРµР»Р°СЏ РїРµСЃРЅСЏ', 00-04-15 );
 
 INSERT INTO tracks (ID,album_id,TITLE,DURATION)
 VALUES (21, 8, 'Future Nostalgia', 00-03-05 );
@@ -141,7 +141,7 @@ INSERT INTO collections (ID,NAME,DATE)
 VALUES (2, 'The Best of Depeche Mode from Bortmehanik', 2021 );
 
 INSERT INTO collections (ID,NAME,DATE)
-VALUES (3, 'Forever Love: Greatest Hits от Air Supply', 2005 );
+VALUES (3, 'Forever Love: Greatest Hits РѕС‚ Air Supply', 2005 );
 
 INSERT INTO collections (ID,NAME,DATE)
 VALUES (4, 'The Complete On The Corner Sessions', 2007 );
@@ -153,7 +153,7 @@ INSERT INTO collections (ID,NAME,DATE)
 VALUES (6, 'NILETTO', 2020 );
 
 INSERT INTO collections (ID,NAME,DATE)
-VALUES (7, 'Кино', 2020 );
+VALUES (7, 'РљРёРЅРѕ', 2020 );
 
 INSERT INTO collections (ID,NAME,DATE)
 VALUES (8, 'Club Future Nostalgia', 2020 );
